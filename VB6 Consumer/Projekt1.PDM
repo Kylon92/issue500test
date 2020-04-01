@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=setup1
+
+
+[Package|setup1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer\dist
+
+[Package|setup1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|setup1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|setup1|Files Found]
+
+[Package|setup1|Files Released]
+
+[Package|setup1|Missing Dependency Information]
+
+[Package|setup1|Out-of-Date Dependency Information]
+
+[Package|setup1|Files Added]
+
+[Package|setup1|Files Removed]
+
+[Package|setup1|Files In Project]
+C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer\VB6Consumer.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6DE.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|setup1|Configure Registry Files]
+Applicable=No
+
+[Package|setup1|Configure Remote Servers]
+Applicable=No
+
+[Package|setup1|Install Locations]
+C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer\VB6Consumer.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6DE.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|setup1|Configure Shared Files]
+Applicable=Yes
+C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer\VB6Consumer.exe=No
+
+[Package|setup1|Distribution]
+Type=single
+Size=
+Title=VB6ComConsumer
+
+[Package|setup1|IconGroups]
+Group0=VB6ComConsumer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|setup1|VB6ComConsumer]
+Icon1=VB6Consumer.exe
+Title1=VB6ComConsumer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|setup1|Package]
+PackageFolder=C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer\dist
+ProjectFolder=C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer
+ServerSideCab=
+File1=C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer\dist\setup.exe
+File2=C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer\dist\Setup.Lst
+File3=C:\Users\chris.sauermann\source\repos\sql issue\VB6 Consumer\dist\VB6Consumer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
