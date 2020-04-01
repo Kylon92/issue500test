@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Com Consumer/1.0.0": {
+        "dependencies": {
+          "ComShared": "1.0.0"
+        },
+        "runtime": {
+          "Com Consumer.dll": {}
+        }
+      },
+      "ComShared/1.0.0": {
+        "runtime": {
+          "ComShared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Com Consumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ComShared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
